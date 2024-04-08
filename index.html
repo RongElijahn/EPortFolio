@@ -1,0 +1,85 @@
+<!DOCTYPE html >
+<html>
+  <head>
+     <title>MyPortfolio</title>
+     <meta charset="utf-8">
+     <link rel="icon" type="image/x-icon" href="logo.jpeg">
+     <link rel="stylesheet" type="text/css" href="portfolio.css">
+     <script type="text/javaScript" src="portfolio.js">
+     </script>
+  </head>
+  <body>
+    <div id="container">
+      <div id="head">
+        <h1 class="titleText firstTitle">MyPortfolio</h1>
+      </div>
+      <div id="topNav">
+        <div class="rightSection">
+          <p class="titleText secondTitle">Name: Rong Zhou<br>Occupation: Student</p>
+          <button class="dllink" title="click here to preview resume" id="dllink">My_Resume</button>
+          <!---<a class="dllink" href="CV.pdf" onclick="onPreview('CV.pdf')" title="click here to preview resume">My_Resume</a>-->
+        </div>
+        <div class="leftSection">
+          <img class="photo" src="images/photo.jpeg" alt="my avatar">
+        </div>
+      </div>
+      <br>
+
+      <div id="middleNav">
+        <div class="section">
+          <h2 class="sectionTitle">Introduction</h2>
+          <p class="sectionText"> &nbsp &nbsp My name is Rong Zhou, an international student at York University. Information technology is my major. The reason I chose this project is that I have interest in it. I am a typical Asian girl, having black hair and a round face. My hometown is China, which is a beautiful place. I have two siblings: one is my elder brother; another is my younger brother.  </p>
+        </div>
+        <br>
+         <div class="section">
+          <h2 class="sectionTitle">Skill</h2>
+          <div class="sectionSkill">
+            <div class="listPicture">
+              <img class="photo" src="images/section.jpeg" alt="my avatar">
+            </div>
+            <div class="listText">
+              <ul class="clothingSelect">
+                 <li>Familair with a variety of programming applications.</li>
+                 <li>Proficiency in multiple computing languages: C, C++, Java, Matlab, HTML/CSS/Java script, SQL.   </li>
+                 <li>Ability to know how to cooperate with teammates and work in high pressure situation. </li>
+              </ul>
+              <a class="socialLink" id="socialLink" href="" title="click here to my social media">My_SocialMedia</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div id="endNav">
+         <h3 class="sectionTitle contactTitle">Contact Information</h3>
+         <div class="contactSection">
+           <div class="contactInfoSection">
+             <p class="contactText">Email:<br><a class="emailLink" href="mailto:zhourong@my.yorku.ca?Subject=Send%20Me%20A%20Email%20.">zhourong@my.yorku.ca</a></p>
+           </div>
+           <div class="contactFormSection">
+             <form action="">
+                <label for="fname">First Name:</label>
+                <input class="inputForm" type="text" id="fname" name="firstname" placeholder="First name..">
+                <br>
+                <label for="lname">Last Name:</label>
+                <input class="inputForm" type="text" id="lname" name="lastname" placeholder="Last name..">
+                <br>
+                <label for="subject">Description:</label>
+                <br>
+                <textarea class="subjectText" id="subject" name="subject" placeholder="Write your text here..."></textarea>
+                <br>
+                <input class="submitForm" type="submit" value="Submit" id="submitForm">
+            </form>
+           </div>
+         </div>
+      </div>
+
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <!--Scirpt for event -->
+    <script type ="text/javaScript" src="pre_portfolio.js">
+    </script>
+  </body>
+</html>
